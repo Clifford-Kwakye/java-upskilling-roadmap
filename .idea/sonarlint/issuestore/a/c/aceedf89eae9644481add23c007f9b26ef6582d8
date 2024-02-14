@@ -1,0 +1,29 @@
+
+h
+java:S13010"KReplace this "switch" statement by "if" statements to increase readability.(¨ÕÉ8ùÏÀÚ1
+L	java:S106"+Replace this use of System.out by a logger.(ŞÒ—üÿÿÿÿ8œŸÏÀÚ1
+G	java:S106"+Replace this use of System.out by a logger.(åäÆ8œŸÏÀÚ1
+L	java:S106"+Replace this use of System.out by a logger.(ŞÒ—üÿÿÿÿ8ŸÏÀÚ1
+G	java:S106"+Replace this use of System.out by a logger.(¾·ûË8ŸÏÀÚ1
+G	java:S106"+Replace this use of System.out by a logger.(Ò‰ıÍ8ŸÏÀÚ1
+L	java:S106"+Replace this use of System.out by a logger.(ã“ÊÖûÿÿÿÿ8ŸÏÀÚ1
+L	java:S106"+Replace this use of System.out by a logger.( „¬…ÿÿÿÿÿ8ŸÏÀÚ1
+L	java:S106"+Replace this use of System.out by a logger.(„á„–øÿÿÿÿ8ŸÏÀÚ1
+L	java:S106"+Replace this use of System.out by a logger.(ŞÒ—üÿÿÿÿ8ŸÏÀÚ1
+L	java:S106"+Replace this use of System.out by a logger.(áİ­³ûÿÿÿÿ8ŸŸÏÀÚ1
+L	java:S106"+Replace this use of System.out by a logger.(ŞÒ—üÿÿÿÿ8ŸŸÏÀÚ1
+G	java:S106"+Replace this use of System.out by a logger.(ƒ„Í×8 ŸÏÀÚ1
+L	java:S106"+Replace this use of System.out by a logger.(ÛÜ€ıÿÿÿÿ8¢ŸÏÀÚ1
+L	java:S106 "+Replace this use of System.out by a logger.(ú¿­†úÿÿÿÿ8¢ŸÏÀÚ1
+G	java:S106!"+Replace this use of System.out by a logger.(ˆÊÿ¶8¨ŸÏÀÚ1
+L	java:S106%"+Replace this use of System.out by a logger.(û·»¦üÿÿÿÿ8¨ŸÏÀÚ1
+G	java:S106("+Replace this use of System.out by a logger.(şØ8ªŸÏÀÚ1
+G	java:S106+"+Replace this use of System.out by a logger.(™©Î8ªŸÏÀÚ1
+>	java:S1310""Add a default case to this switch.(¨ÕÉ8¢ŸÏÀÚ1
+G	java:S106F"+Replace this use of System.out by a logger.(ÆÀûı8ªŸÏÀÚ1
+G	java:S106K"+Replace this use of System.out by a logger.(ÆÀûı8ªŸÏÀÚ1
+G	java:S106O"+Replace this use of System.out by a logger.(÷Ô‚8ÈâÏÀÚ1
+L	java:S106R"+Replace this use of System.out by a logger.(ŞÒ—üÿÿÿÿ8‚íÑÀÚ1
+F	java:S106S"+Replace this use of System.out by a logger.(æ¸ì[8–ˆÖÀÚ1
+L	java:S106T"+Replace this use of System.out by a logger.(ŞÒ—üÿÿÿÿ8 •×ÀÚ1
+L	java:S106U"+Replace this use of System.out by a logger.(ŞÒ—üÿÿÿÿ8¥†ØÀÚ1

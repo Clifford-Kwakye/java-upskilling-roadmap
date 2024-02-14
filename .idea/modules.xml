@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/fizzbuzz/fizzbuzz.iml" filepath="$PROJECT_DIR$/fizzbuzz/fizzbuzz.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java-upskilling-roadmap.iml" filepath="$PROJECT_DIR$/.idea/java-upskilling-roadmap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mortgageCalculator/mortgageCalculator.iml" filepath="$PROJECT_DIR$/mortgageCalculator/mortgageCalculator.iml" />
     </modules>
   </component>
 </project>
