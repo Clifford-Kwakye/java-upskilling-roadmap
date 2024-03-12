@@ -28,7 +28,7 @@ public class UserInterface implements CreateUserInterface {
     System.out.println(" ");
     System.out.println("In order to do the selected calculations we will need the following:");
 
-    System.out.println("* Principal: This the amount of loan for the mortgage");
+    System.out.println("* Principal: This is the amount of loan for the mortgage");
     System.out.println("* Term: This refers to the period over which the mortgage will be paid");
     System.out.println("* Interest Rate");
   }
