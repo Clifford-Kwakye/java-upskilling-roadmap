@@ -2,6 +2,8 @@ package com.example.calculator.service.arithmeticOperations;
 
 import com.example.calculator.dto.request.ArithmeticRequestDto;
 import com.example.calculator.dto.response.ArithmeticResponseDto;
+import com.example.calculator.service.utils.Stack;
+import com.example.calculator.service.validations.GenericValidation;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -10,9 +12,12 @@ import java.util.regex.Pattern;
 @RequiredArgsConstructor
 @Service
 public class ArithmeticOperations implements Arithmetics {
+  private final GenericValidation<Object> genericValidation;
   @Override
   public ArithmeticResponseDto add(ArithmeticRequestDto arithmeticRequestDto)
       throws ArithmeticException {
+    genericValidation.checkViolations(arithmeticRequestDto);
+
     double[] convertedOperands = convertNumbersInExpressionToDoubles(arithmeticRequestDto, "+");
     double result = 0;
 
@@ -28,6 +33,7 @@ public class ArithmeticOperations implements Arithmetics {
 
   @Override
   public ArithmeticResponseDto subtract(ArithmeticRequestDto arithmeticRequestDto) throws ArithmeticException {
+    genericValidation.checkViolations(arithmeticRequestDto);
     double[] convertedOperands = convertNumbersInExpressionToDoubles(arithmeticRequestDto, "-");
 
     double result = 0;
@@ -43,6 +49,7 @@ public class ArithmeticOperations implements Arithmetics {
 
   @Override
   public ArithmeticResponseDto divide(ArithmeticRequestDto arithmeticRequestDto) throws ArithmeticException {
+    genericValidation.checkViolations(arithmeticRequestDto);
     double[] convertedOperands = convertNumbersInExpressionToDoubles(arithmeticRequestDto, "/");
 
     double result = convertedOperands[0] / convertedOperands[1];
@@ -54,6 +61,8 @@ public class ArithmeticOperations implements Arithmetics {
 
   private double[] convertNumbersInExpressionToDoubles(
       ArithmeticRequestDto arithmeticRequestDto, String operator) {
+    genericValidation.checkViolations(arithmeticRequestDto);
+
     String expression = arithmeticRequestDto.getExpression().trim();
     String regex = Pattern.quote(operator);
     String[] operands = expression.split(regex);

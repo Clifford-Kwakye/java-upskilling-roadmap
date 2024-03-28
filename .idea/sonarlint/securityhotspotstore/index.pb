@@ -47,3 +47,11 @@ C
 Calculator/mvnw.cmd,3\c\3c97fc96ab65764604e0435e28262f59a2fc9fe5
 y
 ICalculator/src/main/java/com/example/calculator/config/OpenApiConfig.java,d\5\d58f9fc62ce042ab255ab5f09bbd363b1b7acdce
+‚
+RCalculator/src/main/java/com/example/calculator/service/validations/Validator.java,d\b\dbe01f928b739e5f70ae7b4f41ede96b57d825cc
+ƒ
+SCalculator/src/main/java/com/example/calculator/service/validations/Validation.java,0\5\059b40126be580cbfc0412bec0da2cefcd872a21
+Š
+ZCalculator/src/main/java/com/example/calculator/service/validations/GenericValidation.java,6\c\6c8ab648e13dab2850eeb8292a05394b1c81d832
+x
+HCalculator/src/main/java/com/example/calculator/service/utils/Stack.java,8\0\8023a7d6915d32a8b216b09ce4b589e65f46353f

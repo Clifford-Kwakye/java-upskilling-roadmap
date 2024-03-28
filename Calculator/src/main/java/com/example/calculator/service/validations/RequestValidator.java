@@ -3,16 +3,14 @@ package com.example.calculator.service.validations;
 import jakarta.validation.ConstraintViolation;
 import jakarta.validation.Validation;
 import jakarta.validation.Validator;
-import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
 import jakarta.validation.ValidatorFactory;
-
 import java.util.Collections;
 import java.util.Set;
 import java.util.stream.Collectors;
+import org.springframework.stereotype.Component;
 
 @Component
-public class RequestValidator<T> {
+public class RequestValidator<T> implements GenericValidation<T> {
   private final ValidatorFactory factory = Validation.buildDefaultValidatorFactory();
   private final Validator validator = factory.getValidator();
 
