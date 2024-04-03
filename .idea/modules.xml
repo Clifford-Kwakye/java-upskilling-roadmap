@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/TaskScheduler/TaskScheduler.iml" filepath="$PROJECT_DIR$/TaskScheduler/TaskScheduler.iml" />
       <module fileurl="file://$PROJECT_DIR$/fizzbuzz/fizzbuzz.iml" filepath="$PROJECT_DIR$/fizzbuzz/fizzbuzz.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java-upskilling-roadmap.iml" filepath="$PROJECT_DIR$/.idea/java-upskilling-roadmap.iml" />
       <module fileurl="file://$PROJECT_DIR$/mortgageCalculator/mortgageCalculator.iml" filepath="$PROJECT_DIR$/mortgageCalculator/mortgageCalculator.iml" />
