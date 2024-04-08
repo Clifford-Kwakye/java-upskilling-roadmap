@@ -13,7 +13,8 @@ public class UserInterface implements UI {
     this.scheduler = scheduler;
   }
 
-  private void showTutorial() {
+  @Override
+  public void showTutorial() {
     System.out.println(" ");
     System.out.println("          TASK SCHEDULER");
     System.out.println(" ");
@@ -60,20 +61,22 @@ public class UserInterface implements UI {
     while (true) {
       int choice = scanner.nextInt();
 
-      if (choice == 1) schedule(scanner);
-
-      if (choice == 2) scheduler.showTasks();
-
-      if (choice == 3) {
+      if (choice == 1) {
+        schedule(scanner);
+        showTutorial();
+      } else if (choice == 2) {
+        scheduler.showTasks();
+        showTutorial();
+      } else if (choice == 3) {
         System.out.println("Closing TASK SCHEDULER....");
         break;
+      } else {
+        System.out.println(" ");
+        System.out.println("Incorrect option selected, please try again!");
+        System.out.println(" ");
+        System.out.println(" ");
+        showTutorial();
       }
-
-      System.out.println(" ");
-      System.out.println("Incorrect option selected, please try again!");
-      System.out.println(" ");
-      System.out.println(" ");
-      showTutorial();
     }
   }
 }

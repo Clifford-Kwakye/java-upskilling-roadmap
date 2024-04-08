@@ -10,4 +10,12 @@ public class Task {
     this.job = job;
     this.time = time;
   }
+
+  public String getJob() {
+    return job;
+  }
+
+  public LocalDateTime getTime() {
+    return time;
+  }
 }

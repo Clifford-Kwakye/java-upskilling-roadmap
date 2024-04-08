@@ -53,26 +53,16 @@ x
 HCalculator/src/main/java/com/example/calculator/service/utils/Stack.java,8\0\8023a7d6915d32a8b216b09ce4b589e65f46353f
 K
 TaskScheduler/src/Main.java,0\9\093102f4789e908b768900381fb1b709a1749c53
-\
-,TaskScheduler/src/scheduler/JobSchedule.java,9\1\91b35f9528da8b70d7acbe82a6e5e1115011f9fb
-`
-0TaskScheduler/src/scheduler/JobScheduleImpl.java,f\5\f57672e44840793931a0f49c17d4f1c7a334b962
 O
 TaskScheduler/src/dto/Task.java,b\a\bad782e2db17022a0f0688045e3cb1e200958bba
 N
 TaskScheduler/src/job/Job.java,b\1\b1dee73f1e687f6da4f02ae76ec8d44959126647
 R
 "TaskScheduler/src/job/JobImpl.java,e\c\ec94e342bff161fd9e888645c169d0e4989d8b98
-Y
-)TaskScheduler/src/scheduler/Schedule.java,a\b\abb6d91c957b86cdf7cb7c458641ff2b1e052833
-^
-.TaskScheduler/src/scheduler/SchedularImpl.java,3\e\3e581be18c49f42195b959cf1fa5338d955abdfc
 Z
 *TaskScheduler/src/scheduler/Scheduler.java,a\6\a6544f30ad8455acef57ee9d049c2bf087024222
 ^
 .TaskScheduler/src/scheduler/SchedulerImpl.java,9\d\9dd0c33784cd194e9ac7c0fb66a1a0f2155020ba
-X
-(TaskScheduler/src/Queue/CustomQueue.java,5\4\549a31eafb827e7a8569aa0c509f115efdd7fc77
 ^
 .TaskScheduler/src/CustomQueue/CustomQueue.java,e\4\e47c5e17ea3a9b0db51cceedfde0718c8221fdbb
 L

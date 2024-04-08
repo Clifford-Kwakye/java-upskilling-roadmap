@@ -1,6 +1,7 @@
 package CustomQueue;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class CustomQueue<T> extends ArrayList<T> {
   private static CustomQueue<Object> INSTANCE;
@@ -32,5 +33,9 @@ public class CustomQueue<T> extends ArrayList<T> {
     if (super.isEmpty()) return null;
 
     return super.getFirst();
+  }
+
+  public List<T> peekAll() {
+    return super.stream().toList();
   }
 }
