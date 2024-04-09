@@ -52,22 +52,23 @@ public class AuthService implements Auth {
     return signupResponseDto;
   }
 
-  @Override
-  public LoginResponseDto login(LoginRequestDto loginRequestDto) {
-    String email = loginRequestDto.getEmail();
-
-    Authentication authentication =
-        authenticationManager.authenticate(
-            new UsernamePasswordAuthenticationToken(email, loginRequestDto.getPassword()));
-
-    if (!authentication.isAuthenticated())
-      throw new UsernameNotFoundException("Incorrect username or password");
-
-    User user =
-        userRepository
-            .findByEmail(email)
-            .orElseThrow(() -> new UsernameNotFoundException("User does not exist"));
-
-    return LoginResponseDto.builder().token(jwtService.generateToken(email)).user(user).build();
-  }
+//  @Override
+//  public LoginResponseDto login(LoginRequestDto loginRequestDto) {
+//    String email = loginRequestDto.getEmail();
+//    System.out.println(jwtService.generateToken(email));
+//
+//    Authentication authentication =
+//        authenticationManager.authenticate(
+//            new UsernamePasswordAuthenticationToken(email, loginRequestDto.getPassword()));
+//    System.out.println("Correct auth");
+//    if (!authentication.isAuthenticated())
+//      throw new UsernameNotFoundException("Incorrect username or password");
+//
+//    User user =
+//        userRepository
+//            .findByEmail(email)
+//            .orElseThrow(() -> new UsernameNotFoundException("User does not exist"));
+//
+//    return LoginResponseDto.builder().token(jwtService.generateToken(email)).user(user).build();
+//  }
 }

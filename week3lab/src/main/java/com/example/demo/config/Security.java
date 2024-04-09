@@ -53,7 +53,6 @@ public class Security {
                 request.requestMatchers(PUBLIC_URLS).permitAll().anyRequest().authenticated())
         .sessionManagement(
             session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
-        .authenticationProvider(authenticationProvider())
         .addFilterBefore(jwtAuthFilter, UsernamePasswordAuthenticationFilter.class)
         .formLogin(
             form ->

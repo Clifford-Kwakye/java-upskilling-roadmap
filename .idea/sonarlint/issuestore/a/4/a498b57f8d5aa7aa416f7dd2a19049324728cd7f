@@ -1,3 +1,2 @@
 
-v
-java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(ÍËÞ¼ûÿÿÿÿ8Ð¸âíë1
+m	java:S106J"+Replace this use of System.out by a logger.(ü’ÝÉ8†±ñšì1J$c39bc85f-0f98-4e66-86d9-8c2017362178

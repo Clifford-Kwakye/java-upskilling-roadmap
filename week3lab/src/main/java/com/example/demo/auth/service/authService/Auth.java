@@ -7,5 +7,5 @@ import com.example.demo.auth.dto.SignupRequestDto;
 public interface Auth {
   SignupRequestDto signup(SignupRequestDto signupRequestDto);
 
-  LoginResponseDto login(LoginRequestDto loginRequestDto);
+//  LoginResponseDto login(LoginRequestDto loginRequestDto);
 }

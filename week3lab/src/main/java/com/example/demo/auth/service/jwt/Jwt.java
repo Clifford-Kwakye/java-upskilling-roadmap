@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.function.Function;
 
 public interface Jwt {
-  String extractUsername(String token);
+  String extractEmail(String token);
 
   Date extractExpiration(String token);
 

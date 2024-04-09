@@ -21,7 +21,7 @@ public class JwtService implements Jwt {
   private final Environment env;
 
   @Override
-  public String extractUsername(String token) {
+  public String extractEmail(String token) {
     return extractClaim(token, Claims::getSubject);
   }
 
@@ -48,7 +48,7 @@ public class JwtService implements Jwt {
 
   @Override
   public Boolean validateToken(String token, UserDetails userDetails) {
-    final String username = extractUsername(token);
+    final String username = extractEmail(token);
     return (username.equals(userDetails.getUsername()) && !isTokenExpired(token));
   }
 
@@ -71,6 +71,7 @@ public class JwtService implements Jwt {
 
   @Override
   public Key getSignKey() {
+    System.out.println(env.getProperty("*********************"+"jwt_secret"));
     byte[] keyBytes = Decoders.BASE64.decode(env.getProperty("jwt_secret"));
     return Keys.hmacShaKeyFor(keyBytes);
   }
