@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="demo" />
         <module name="Calculator" />
+        <module name="imageProcessor" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

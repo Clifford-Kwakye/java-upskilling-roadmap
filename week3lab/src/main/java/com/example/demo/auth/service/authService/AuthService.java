@@ -60,6 +60,14 @@ public class AuthService implements Auth {
             .findByEmail(email)
             .orElseThrow(() -> new UsernameNotFoundException("User does not exist"));
 
-    return LoginResponseDto.builder().token(jwtService.generateToken(email)).user(user).build();
+    return LoginResponseDto.builder()
+        .id(user.getId())
+        .firstname(user.getFirstname())
+        .lastname(user.getLastname())
+        .username(user.getUsername())
+        .email(user.getEmail())
+        .role(user.getRole())
+        .token(jwtService.generateToken(email))
+        .build();
   }
 }

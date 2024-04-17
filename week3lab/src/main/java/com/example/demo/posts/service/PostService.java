@@ -42,7 +42,10 @@ public class PostService implements IPost {
             .findById(postRequestDto.getUserId())
             .orElseThrow(() -> new UsernameNotFoundException("User not found"));
 
+    user.getPosts().add(postRepository.save(Post.builder().content(postRequestDto.getContent()).build()));
+    userRepository.save(user);
+
     return postRepository.save(
-        Post.builder().content(postRequestDto.getContent()).createdBy(user).build());
+        Post.builder().content(postRequestDto.getContent()).build());
   }
 }

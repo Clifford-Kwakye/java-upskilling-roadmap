@@ -99,8 +99,6 @@ v
 Fweek3lab/src/main/java/com/example/demo/auth/dto/SignupRequestDto.java,b\2\b2c2e529e7b442364f17c4d07d6f7bd5f4268472
 v
 Fweek3lab/src/main/java/com/example/demo/auth/dto/LoginResponseDto.java,8\7\870c92716ac327f3d212cb794959cc0cc0346c6a
-w
-Gweek3lab/src/main/java/com/example/demo/auth/dto/SignupResponseDto.java,8\0\80f5b4af522672d1aecf3baf6760a0f4acb61b0d
 g
 7week3lab/src/main/java/com/example/demo/enums/Role.java,5\e\5e92f136a2feefa1b7c46ddc01fc286744ffd41b
 Ñ
@@ -109,14 +107,6 @@ Tweek3lab/src/main/java/com/example/demo/exceptionHandler/GlobalExceptionHandler
 Nweek3lab/src/main/java/com/example/demo/exceptionHandler/dto/ExceptionDto.java,e\0\e09e18d7ba05ef2dbb7dcb7b7bd03dab253fe9a2
 =
 week3lab/.env,f\6\f69d460e057eb33788618be8e22a69a47b719051
-Å
-Qweek3lab/src/main/java/com/example/demo/auth/posts/controller/PostController.java,a\5\a5fbee7e00b6574c36961e9c0937d61027cfdc2f
-t
-Dweek3lab/src/main/java/com/example/demo/auth/posts/service/Post.java,5\5\55a81d35ab42e617af81366fc56d6d6e6670e379
-{
-Kweek3lab/src/main/java/com/example/demo/auth/posts/service/PostService.java,0\7\07e19e53a4de5c4e0faae2ad3a3108510f507241
-o
-?week3lab/src/main/java/com/example/demo/posts/service/Post.java,4\a\4ad2ae25fa2c3e954016f73e94aacc20bdcb526c
 v
 Fweek3lab/src/main/java/com/example/demo/posts/service/PostService.java,7\5\75b8473fbe325929a498b2743af4a7afd6235ac3
 |
@@ -131,3 +121,17 @@ q
 Aweek3lab/src/main/java/com/example/demo/posts/dto/AllPostDto.java,e\6\e683e3b70bdfb35fd82a073b617dba7db9f21169
 u
 Eweek3lab/src/main/java/com/example/demo/posts/dto/PostRequestDto.java,9\6\968651871557e37cbcaccfed48f676c3bb107791
+=
+week3lab/mvnw,8\7\878f6123aae15ccc131cefbcd768714d383a8010
+Y
+)mortgageCalculator/mortgageCalculator.iml,4\6\46b935ad6b6ab17165534f55c6edaee1618b6f31
+F
+imageProcessor/pom.xml,3\2\328493729fe99a1edfb032abbeef5a19e3610aec
+b
+2imageProcessor/src/main/java/org/example/Main.java,5\b\5b2391c920579ab4d8f22eff6d0075a8f82a3e46
+l
+<imageProcessor/src/main/java/org/example/ImageProcessor.java,9\7\97166288ccac0a533327875a9406be3d77d93daf
+q
+AimageProcessor/src/main/java/org/example/processor/Processor.java,1\7\17c34dcc1b9945f8b71b1a99ed46291bf358a2de
+v
+FimageProcessor/src/main/java/org/example/processor/ImageProcessor.java,a\b\ab764f88f55bc25a33c50ac230ab34b9b5bd6036

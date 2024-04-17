@@ -38,6 +38,9 @@ public class User implements UserDetails {
 
   @Column private String role;
 
+  @OneToMany(mappedBy = "createdBy")
+  private List<Post> posts;
+
   @Override
   public Collection<? extends GrantedAuthority> getAuthorities() {
     List<GrantedAuthority> authorities = new ArrayList<>();

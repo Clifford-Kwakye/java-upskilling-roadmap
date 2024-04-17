@@ -23,6 +23,6 @@ public class Post {
     private long likes;
 
     @ManyToOne
-    @JoinColumn(referencedColumnName = "id")
+    @JoinColumn(name = "user_id")
     private User createdBy;
 }
