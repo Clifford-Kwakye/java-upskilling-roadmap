@@ -25,7 +25,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 public class Security {
   private final UserDetailsServiceImpl userDetailsService;
   private final JwtAuthFilter jwtAuthFilter;
-  private static final String[] PUBLIC_URLS = {"/api/v1/auth/**"};
+  private static final String[] PUBLIC_URLS = {"/api/v1/auth/**", "/actuator/**"};
 
   @Bean
   public SecurityFilterChain securityFilterChain(HttpSecurity httpSecurity) throws Exception {

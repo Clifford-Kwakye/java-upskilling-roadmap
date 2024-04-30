@@ -14,13 +14,13 @@ public class Post {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")
-    private long id;
+    private Long id;
 
     @Column
     private String content;
 
     @Column
-    private long likes;
+    private Long likes;
 
     @ManyToOne
     @JoinColumn(name = "user_id")

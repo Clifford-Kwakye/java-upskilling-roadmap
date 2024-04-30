@@ -1,0 +1,20 @@
+
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¹èÊÑıÿÿÿÿ8¦«¯Ğò1J$b8635627-7e26-4c5e-802d-6abfebc6b981
+{
+java:S1854
+"9Remove this useless assignment to local variable "vegan".(üó¹-8èß°Ğò1J$49fcabf1-0620-4905-9b35-890a2c3f35d9
+
+java:S1854	"9Remove this useless assignment to local variable "vegan".(š îôşÿÿÿÿ8èß°Ğò1J$7ec68c02-f41f-40b2-b924-45560728d25d
+
+java:S1854"9Remove this useless assignment to local variable "items".(ìæç´ùÿÿÿÿ8éß°Ğò1J$ede97ba2-9810-4382-905f-a2565d8e7c57
+r
+java:S1481"*Remove this unused "items" local variable.(ìæç´ùÿÿÿÿ8ëß°Ğò1J$e9d557ef-ea7c-47be-be6f-8bde2e745808
+r
+java:S1481	"*Remove this unused "vegan" local variable.(š îôşÿÿÿÿ8ëß°Ğò1J$7c50284f-cf9f-4a6b-9525-2f18c1e1e796
+l
+java:S1481
+"*Remove this unused "vegan" local variable.(üó¹-8ëß°Ğò1J$11614962-f884-4bb4-8c7b-9fa41d1e3e3d
+r	java:S106"+Replace this use of System.out by a logger.(ìÖá®ıÿÿÿÿ8íß°Ğò1J$475ba6bf-c06e-43ee-b071-f7f32c8c215c
+r	java:S106"+Replace this use of System.out by a logger.(µ²’Éüÿÿÿÿ8íß°Ğò1J$c9036dd0-2d9e-423e-8edc-c93175c395fa
+r	java:S106#"+Replace this use of System.out by a logger.(ëì°Ûøÿÿÿÿ8îß°Ğò1J$63353d97-657a-4a5f-917f-3cdab476f700
+m	java:S106%"+Replace this use of System.out by a logger.(‹êô‹8îß°Ğò1J$c8a0ab75-9360-4a40-9f3b-f3b3758ebef6

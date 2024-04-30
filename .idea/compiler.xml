@@ -13,6 +13,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="week1" target="21" />
       <module name="week3lab" target="21" />
     </bytecodeTargetLevel>
   </component>
